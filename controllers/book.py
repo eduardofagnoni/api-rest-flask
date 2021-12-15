@@ -13,7 +13,7 @@ book_list_schema = BookSchema(many=True)
 
 ITEM_NOT_FOUND = 'Book not found'
 
-item = book_ns.model("Bokk", {
+item = book_ns.model("Book", {
     'title': fields.String(description='Book title'),
     'pages': fields.Integer(default=0)
 })
